@@ -15,6 +15,8 @@ oc new-app --image-stream=jboss-webserver30-tomcat7-openshift .
 After the build and deploy finish, expose the service and visit the route.
 ```
 oc expose service tomcatsrc
+
+firefox http://tomcatsrc-tomcatsrc.ose-apps.haveopen.com/hello
 ```
 
 #### Build from remote source
